@@ -1,0 +1,35 @@
+.header {
+
+    padding: 29px 28px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+}
+
+.header__nav-items {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+
+    // &:hover {
+    //     color: #817070;
+    // }
+    
+}
+
+.nav-item {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        color: #817070;
+    }
+}

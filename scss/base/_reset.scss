@@ -1,0 +1,41 @@
+/* reset.scss */
+
+/* Сброс всех отступов и внутренних отступов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем стандартные стили для списка и ссылок */
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Убираем стандартный цвет ссылок */
+}
+
+/* Убираем стандартные стили для форм */
+input, textarea, button, select {
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Убираем стиль для таблиц */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Стандартизируем шрифты на всех элементах */
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+}
