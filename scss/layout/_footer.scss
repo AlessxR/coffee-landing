@@ -1,0 +1,42 @@
+.footer {
+    &__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        background-color: #817070;
+        min-height: 337px;
+
+
+        &-header {
+            color: white;
+            font-weight: 800;
+        }
+
+        &-form {
+            input {
+                box-sizing: border-box;
+                border: 3px solid rgb(255, 255, 255);
+                background: rgb(129, 112, 112);
+
+                ::placeholder {
+                    color: white;
+                }
+            }
+        }
+        &-btn {
+            button {
+                box-sizing: border-box;
+                border: 3px solid rgb(255, 255, 255);
+                background: rgb(255, 255, 255);
+                width: 129px;
+                height: 55px;
+            }
+        }
+    }
+
+    &__bottom {
+        padding: 29px;
+    }
+}

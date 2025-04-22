@@ -5,5 +5,10 @@
 @import './base/reset';
 @import './base/body';
 
+@import './components/title';
+
 @import './layout/header';
 @import './layout/time';
+@import './layout/story';
+@import './layout/blog';
+@import './layout/footer';
