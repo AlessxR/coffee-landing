@@ -48,12 +48,32 @@
 
 @media screen and (max-width: 731px) {
     
-    // .header__nav {
-    //     display: none;
-    // }
+    .header__nav {
+        display: none;
+    }
 
     .burger {
         display: inline-block;
+    }
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #FFEFBA;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__nav.active {
+        transform: translateX(0);
     }
 
     .header__nav-items {
