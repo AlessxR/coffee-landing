@@ -1,0 +1,17 @@
+.burger {
+    display: none;
+    gap: 50px;
+
+    span {
+        display: block;
+        height: 1px;
+        width: 20px;
+        background-color: black;
+        margin: 3px;
+    }
+
+}
+
+.burger__menu.active {
+    display: flex;
+}
